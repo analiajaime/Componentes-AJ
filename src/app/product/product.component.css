@@ -1,0 +1,86 @@
+section {
+    margin: auto;
+    max-width: 1080px;
+    
+}
+
+h1 {
+    text-align: start;
+    font-size: 38px;
+    font-weight: bold;
+    font-family: "Play", sans-serif;
+}
+
+span {
+    font-size: 20px;
+    color: #757474;
+    font-weight: 400;
+}
+
+h5 {
+    font-family: "Play", sans-serif;
+    padding: 10px 15px;
+    background:linear-gradient(to right, #00bad3, #dafbff, #eafcff);
+    font-size: 24px;
+    margin-bottom: 0;
+}
+
+.card-body {
+    padding-left: 25px;
+}
+
+.des-ul {
+    padding-left: 15px;
+    background-color: #d3efff;
+}
+
+.li-prod {
+    
+    margin: 15px 0;
+    list-style-type: '-';
+    font-size: 18px;
+    color: #4e4e4e;
+    font-weight: 400;
+}
+
+
+.card {
+    border: 1px solid #b1b1b1;
+    border-radius: 0;
+    box-shadow:  2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.img-box {
+    width: 50%;
+}
+
+.card-box {
+    margin: 0;
+    height: 100%;
+    border-left: 1px solid #b1b1b1;
+    width: 50%;
+}
+
+.price {
+    margin: auto;
+    font-family: 'Play',sans-serif;
+    max-width: 150px;
+    background:linear-gradient(to right, #00bad3, #dafbff, #00bad3);
+    font-size: 28px;
+    color: #004149;
+    text-align: center;
+}
+
+.btn {
+    background-color: #00bad3;
+    border: black 3px solid;
+    border-radius: 0;
+    font-weight: 600;
+    font-family: "Play", sans-serif;
+    transition: all ease 0.2s;
+}
+
+.btn:hover {
+ background-color: #03c7e0;
+  transform: scale(1.02);
+}

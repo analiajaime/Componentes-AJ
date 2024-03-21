@@ -1,0 +1,28 @@
+<section>
+    <h1>PRODUCTS 
+        <span>
+            >> Alimento para mascotas
+        </span> </h1>
+    <div class="card mb-3" style="max-width: 1080px; margin:auto; padding: 30px 50px;">
+        <div class="row g-0 d-flex justify-content-between align-items-center">
+          <div class="col-md-4 img-box">
+            <img src="./assets/galaxy-book.png" class="img-fluid rounded-start" alt="...">
+            <p class="price">$ {{price}}</p>
+          </div>
+          <div class="col-md-8 card-box ">
+            <div class="card-body d-flex flex-column justify-content-start">
+              <h5 class="card-title">{{title}}</h5>
+              <ul class="des-ul">
+                <li *ngFor="let description of descriptions" class="li-prod">{{ description }}</li>
+              </ul>
+             
+              <button type="button" class="btn  btn-lg">Comprar</button>
+              <p class="card-text"><small class="text-body-secondary">Stock: {{stock}}</small></p>
+            
+            </div>
+          </div>
+        </div>
+      </div>
+</section>
+
+

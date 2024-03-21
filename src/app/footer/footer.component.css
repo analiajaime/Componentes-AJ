@@ -1,0 +1,10 @@
+.footer {
+    margin-top: 100px;
+    background-color: #a5abacd3;
+    padding: 20px 50px;
+    gap: 200px;
+}
+
+.footer ul li a {
+    color: rgb(41, 177, 240);
+}
